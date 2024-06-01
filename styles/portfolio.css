@@ -117,6 +117,8 @@ main {
 }
 main section{
   margin-top: 130px;
+  margin-bottom: 30px;
+
 }
 .about-info-container {
   display: flex;
@@ -161,6 +163,27 @@ box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.6);
   color: #474747;
 
 }
+
 .resume-container{
-  display: inline-flex;
+  display: flex;
+  gap: 50px;
+}
+.resume-item-title{
+  font-size: 25px;
+  font-weight: 700px;
+  color: #474747;
+  margin-bottom: 10px;
+
+
+}
+.resume-item-institute{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.resume-item-institute , .reresume-item-description{
+  color: #757575;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
 }
