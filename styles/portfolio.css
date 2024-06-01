@@ -91,6 +91,7 @@ nav {
   border-radius: 10px;
   background-color: #FFF8F3;
   margin: 130px 0;
+  /* margin-bottom: 20px ; */
 }
 
 /* about section style */
@@ -109,14 +110,57 @@ nav {
   color: #757575;
   text-align: center;
 }
-main{
+
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
-.about-info-container{
+main section{
+  margin-top: 130px;
+}
+.about-info-container {
   display: flex;
   justify-content: space-around;
+  /* padding: 20px; */
+  /* margin-bottom: 20px; */
 }
-.about-info{
+
+.about-info {
   text-align: center;
+  /* padding: 20px; */
+}
+
+#what-i-do-des {
+  padding: 20px 150px;
+}
+
+/* skills related styles */
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+
+
+.skill-description {
+  color: #757575;
+}
+
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+
+  background:#FFF;
+box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.6);
+
+}
+/* resume styles */
+.resumecolum-title{
+  font-weight: 700px;
+  font-size: 30px;
+  color: #474747;
+
+}
+.resume-container{
+  display: inline-flex;
 }
